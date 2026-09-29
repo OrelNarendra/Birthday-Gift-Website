@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#03050b">
+  <title>For Siti Nafsiyah Hasana ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap">
+  <link rel="stylesheet" href="style.css?v=5">
+  <link rel="stylesheet" href="theme.css?v=5">
+  <link rel="stylesheet" href="booth.css?v=5">
+</head>
+<body>
+  <div class="noise"></div>
+  <canvas id="sakura-canvas" aria-hidden="true"></canvas>
+  <div class="stars" aria-hidden="true"></div>
+  <div id="toast" class="toast">✨ you found a tiny secret</div>
+
+  <main>
+    <!-- PAGE 00 / OPENING -->
+    <section class="page active" id="page-00">
+      <div class="opening-bg-orb orb-pink"></div>
+      <div class="opening-bg-orb orb-blue"></div>
+
+      <div class="opening-wrap">
+        <div class="opening-jp">おたんじょうび おめでとう ♡</div>
+        <div class="opening-date">09 · OCTOBER · 2026</div>
+
+        <div class="typing-window">
+          <div class="typing-line">
+            <span id="typingText"></span><span class="cursor">|</span>
+          </div>
+          <div class="typing-sub">a little website made for someone very special...</div>
+        </div>
+
+        <div class="opening-name">
+          <span>for</span>
+          <h1>Siti Nafsiyah<br><i>Hasana</i> ♡</h1>
+        </div>
+
+        <p class="opening-note">wait a few seconds... let the words finish first 🌸</p>
+
+        <button id="startBtn" class="btn primary next-btn" type="button" aria-disabled="true" disabled>
+          Continue... <span>→</span>
+        </button>
+
+        <div class="page-indicator">
+          <span class="active-dot"></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 01 / LETTER -->
+    <section class="page" id="page-01">
+      <div class="page-inner">
+        <div class="page-top">
+          <div class="page-label">01 / a little letter</div>
+          <div class="date-pill">09 · 10 · 2026</div>
+        </div>
+
+        <div class="letter-layout">
+          <div class="letter-side">
+            <div class="sakura-symbol">🌸</div>
+            <p class="jp-small">大丈夫。あなたはここまで来た。</p>
+            <span class="side-caption">for my favorite human</span>
+          </div>
+
+          <article class="letter-card">
+            <p class="hand">Dear Siti Nafsiyah Hasana,</p>
+            <h2>Terima kasih sudah bertahan sejauh ini.</h2>
+
+            <p>
+              Di hari ulang tahunmu ini, aku cuma ingin bilang:
+              <strong>aku bangga sama kamu.</strong> Terima kasih karena sudah tetap
+              berjalan, tetap mencoba, dan tetap bertahan selama ini, bahkan di hari-hari
+              yang mungkin tidak selalu mudah.
+            </p>
+
+            <p>
+              Semoga semua langkah yang sedang kamu jalani membawa kamu semakin dekat
+              dengan hal-hal yang kamu impikan. Semoga cita-cita kamu untuk pergi ke
+              <strong>Jepang</strong> suatu hari nanti benar-benar menjadi nyata.
+            </p>
+
+            <p>
+              Mungkin doa-doaku tidak selalu terdengar oleh kamu, tapi percayalah,
+              <strong>doaku selalu punya bagian untuk dirimu.</strong>
+              Aku akan selalu berharap kamu sehat, bahagia, dimudahkan jalannya,
+              dan menemukan banyak alasan untuk tersenyum.
+            </p>
+
+            <p>
+              Dan kalau suatu hari kamu akhirnya sampai di Bali...
+              <strong>aku tunggu kamu di sini ya.</strong> Kita jalankan wishlist
+              tour Bali kita satu per satu. 🌴🌊
+            </p>
+
+            <p class="signature">
+              Love You Cantiknya Dadyyy.... ♡<br>
+              <span>— seseorang yang selalu mendoakanmu</span>
+            </p>
+
+            <button class="mini-btn" id="heartBtn">tap for a tiny hug <span>♡</span></button>
+          </article>
+        </div>
+
+        <div class="page-nav">
+          <button class="btn ghost" data-prev>← previous</button>
+          <span>01 / 05</span>
+          <button class="btn primary" data-next>open our memories →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 02 / MEMORY -->
+    <section class="page" id="page-02">
+      <div class="page-inner">
+        <div class="page-top">
+          <div class="page-label">02 / our little archive</div>
+          <div class="date-pill">memory.zip</div>
+        </div>
+
+        <div class="center-heading">
+          <div class="section-kicker">a folder full of us</div>
+          <h2>Memory folder<span>.zip</span></h2>
+          <p>Beberapa momen kecil yang bikin aku bersyukur pernah bertemu kamu.</p>
+        </div>
+
+        <div class="gallery">
+          <figure class="memory m1"><img src="assets/photo2.jpg" alt="Memory 1"><figcaption>chapter 01 · favorite</figcaption></figure>
+          <figure class="memory m2"><img src="assets/photo3.jpg" alt="Memory 2"><figcaption>chapter 02 · hehe</figcaption></figure>
+          <figure class="memory m3"><img src="assets/photo4.jpg" alt="Memory 3"><figcaption>chapter 03 · us</figcaption></figure>
+          <figure class="memory m4"><img src="assets/photo5.jpg" alt="Memory 4"><figcaption>chapter 04 · lagi</figcaption></figure>
+          <figure class="memory m5"><img src="assets/photo1.jpg" alt="Memory 5"><figcaption>chapter 05 · always</figcaption></figure>
+        </div>
+
+        <div class="page-nav">
+          <button class="btn ghost" data-prev>← page 01</button>
+          <span>02 / 05</span>
+          <button class="btn primary" data-next>make a little wish →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 03 / WISH -->
+    <section class="page" id="page-03">
+      <div class="page-inner centered-page">
+        <div class="page-top">
+          <div class="page-label">03 / wish.exe</div>
+          <div class="date-pill">fortune unlocked</div>
+        </div>
+
+        <div class="wish-panel">
+          <div class="lantern">🏮</div>
+          <div class="section-kicker">a little wish from me</div>
+          <h2>Masukkan keberuntungan<br>hari ini.</h2>
+          <p>Tekan tombolnya. Jangan curang, fortune cookie-nya sensitif.</p>
+          <button id="wishBtn" class="btn primary">open my fortune ✦</button>
+          <div id="wishResult" class="wish-result">「 ここに小さな奇跡が現れる 」</div>
+        </div>
+
+        <div class="wish-extra">
+          <span>日本へ</span>
+          <span>♡</span>
+          <span>バリへ</span>
+          <span>♡</span>
+          <span>幸せへ</span>
+        </div>
+
+        <div class="page-nav">
+          <button class="btn ghost" data-prev>← page 02</button>
+          <span>03 / 05</span>
+          <button class="btn primary" data-next>foto dulu yukk →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- PAGE 04 / PHOTO BOOTH -->
+    <section class="page gated" id="page-04">
+      <div class="page-inner">
+        <div class="page-top"><div class="page-label">04 / photo booth</div><div class="date-pill">our newest memory</div></div>
+        <div class="gate" id="bGate">
+      <div class="vf">
+        <i></i><i></i><i></i><i></i>
+        <div class="gate-copy">
+          <span class="section-kicker">photo booth</span>
+          <h2>Siap difoto?<br><i>Senyum dulu ya.</i></h2>
+          <p>Ada satu tempat kecil buat kita bikin kenangan baru, sendirian atau berdua dari jauh.</p>
+          <div class="focus"><b class="fring"></b><button id="bGo" class="btn primary big" type="button">Klick aku untuk foto <span>📸</span></button></div>
+        </div>
+      </div>
+    </div>
+    <ol class="steps"><li class="on">Frame</li><li>Shoot</li><li>Done</li></ol>
+        <div class="booth">
+          <div class="stage">
+            <div class="vp"><div class="tile"><video id="bVideo" playsinline muted></video><em id="nMe">kamu</em></div><div class="tile" id="pTile"><video id="pVideo" playsinline autoplay></video><em id="nP">pasangan</em></div><div id="bCount"></div><div id="bFlash"></div></div>
+            <canvas id="bResult"></canvas>
+            <div id="bSlots" class="slots"></div>
+            <p id="bMsg" class="bmsg">Pilih gaya, lalu aktifkan kamera.</p>
+          </div>
+          <div class="panel">
+            <span class="section-kicker">our little photo booth</span>
+        <h2>Foto bareng,<br><i>kenangan baru.</i></h2>
+            <div class="grp"><span>nama</span><input id="bName" maxlength="14" placeholder="namamu"><i class="dot on" data-c="#ff7db8" style="background:#ff7db8"></i><i class="dot" data-c="#69d9ff" style="background:#69d9ff"></i><i class="dot" data-c="#ffb35c" style="background:#ffb35c"></i></div>
+            <div class="grp"><span>mode</span><button class="chip on" data-k="m" data-v="solo">Sendiri</button><button class="chip" data-k="m" data-v="duo">Berdua (virtual)</button></div>
+            <div class="grp"><span>bingkai</span><div class="cards" id="bL"></div></div>
+            <div class="grp"><span>filter</span><button class="chip on" data-k="f" data-v="natural">Natural</button><button class="chip" data-k="f" data-v="sakura">Sakura</button><button class="chip" data-k="f" data-v="ocean">Ocean</button><button class="chip" data-k="f" data-v="film">Film</button></div>
+            <div class="grp"><span>latar</span><button class="chip on" data-k="b" data-v="none">Asli</button><button class="chip" data-k="b" data-v="blur">Blur</button><button class="chip" data-k="b" data-v="sakura">Sakura</button><button class="chip" data-k="b" data-v="ocean">Samudra</button></div>
+            <div class="grp"><span>stiker</span><button class="chip on" data-k="s" data-v="none">Tanpa</button><button class="chip" data-k="s" data-v="ears">🐱 Kuping kucing</button><button class="chip" data-k="s" data-v="crown">🌸 Mahkota bunga</button><button class="chip" data-k="s" data-v="glasses">👓 Kacamata</button></div>
+            <div class="grp"><span>tema</span><div class="cards" id="bT"></div></div>
+            <div class="grp"><span>dekor</span><button class="chip on" data-k="dc" data-v="polos">Polos</button><button class="chip" data-k="dc" data-v="birthday">Birthday</button><button class="chip" data-k="dc" data-v="cozy">Cozy</button><button class="chip" data-k="dc" data-v="jepang">Jepang</button><button class="chip" data-k="dc" data-v="langit">Langit</button></div>
+            <div class="grp" id="bDg" style="display:none"><span></span><div class="cards" id="bD"></div></div>
+            <div id="bPart" class="part"><span>PARTNER</span><b id="pName">menunggu…</b><i id="pDot"></i></div>
+            <div id="bInvite" class="invite">
+              <b>undang pasangan</b>
+              <p id="bInfo">Buat room, lalu kirim link-nya. Kalian foto bersamaan dari HP masing-masing.</p>
+              <div id="bCode"></div>
+              <div class="acts">
+                <button id="bInv" class="btn primary">undang pasangan</button>
+                <button id="bWA" class="btn primary">kirim lewat WhatsApp</button>
+                <button id="bCopy" class="btn ghost">salin link</button>
+              </div>
+            </div>
+            <div class="acts">
+              <button id="bCam" class="btn primary">aktifkan kamera</button>
+              <button id="bReady" class="btn primary">READY</button>
+              <button id="bShoot" class="btn primary">mulai foto</button>
+              <button id="bMic" class="btn ghost">mic on</button>
+              <button id="bSave" class="btn primary">unduh foto</button>
+              <button id="bAgain" class="btn ghost">ulangi</button>
+            </div>
+          </div>
+        </div>
+        <div class="page-nav"><button class="btn ghost" data-prev>← page 03</button><span>04 / 05</span><button class="btn primary" data-next>one last thing →</button></div>
+      </div>
+    </section>
+
+    <!-- PAGE 05 / FINAL -->
+    <section class="page" id="page-05">
+      <div class="page-inner final-page">
+        <div class="page-top">
+          <div class="page-label">05 / one last thing</div>
+          <div class="date-pill">♡ 09 OCTOBER ♡</div>
+        </div>
+
+        <div class="final-orbit">
+          <div class="orbit-ring"></div>
+          <div class="final-heart">♡</div>
+          <div class="final-copy">
+            <span>happy birthday, Siti Nafsiyah Hasana</span>
+            <h2>You are loved.<br><i>More than you know.</i></h2>
+            <p>Semoga tahun ini lembut kepadamu, penuh cerita baik, dan membawa kamu semakin dekat dengan semua impianmu.</p>
+            <button id="finalBtn" class="btn primary">claim your birthday kiss 💋</button>
+          </div>
+        </div>
+
+        <div class="page-nav">
+          <button class="btn ghost" data-prev>← page 04</button>
+          <span>05 / 05</span>
+          <button id="replayBtn" class="btn ghost">↻ read it again</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <audio id="bg-music" loop preload="metadata">
+    <source src="assets/bg-music.mp3" type="audio/mpeg">
+  </audio>
+  <button id="musicBtn" class="music-btn" type="button" aria-pressed="false" hidden>♪ music on</button>
+  <div id="kiss-layer" class="kiss-layer" aria-hidden="true"></div>
+
+  <script src="script.js?v=5"></script>
+  <script src="theme.js?v=5"></script>
+  <script src="https://cdn.jsdelivr.net/npm/peerjs@1.5.4/dist/peerjs.min.js"></script>
+  <script src="booth.js?v=5"></script>
+</body>
+</html>
